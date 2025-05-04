@@ -1,0 +1,23 @@
+# Site settings
+title: "Class 11 Educational Website"
+description: "Math, Physics, and Chemistry Resources"
+url: "https://yourusername.github.io/Class11Website"  # Replace with your GitHub Pages URL
+baseurl: ""  # Optional: If you're using a custom domain, add baseurl like "/repositoryname"
+
+# Build settings
+theme: jekyll-theme-cayman  # You can choose any Jekyll theme here
+markdown: kramdown  # Markdown parser for your content
+
+# Exclude files from being processed by Jekyll
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - _config.yml
+
+# Include any additional directories or files
+include:
+  - assets
+
+# Permalink settings (optional, depending on your URL structure)
+permalink: /:year/:month/:day/:title/
